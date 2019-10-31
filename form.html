@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <title>Form.</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <h1>Add New Article</h1>
+      <form>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="inputTitle"><h4>Article Title</h4></label>
+              <input type="text" class="form-control" id="inputTitle" placeholder="Enter Title">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="inputAuthor"><h4>Author Name</h4></label>
+              <input type="text" class="form-control" id="inputAuthor" placeholder="Enter Author">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="upFile"><h4>Upload Files:</h4></label>
+              <br>
+              <input type="file" id="upFile" name="filename">
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="choosePage"><h4>Pages</h4></label>
+              <select class="form-control" id="choosePage">
+                <option>Academics</option>
+                <option>Activities</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="articleTextArea"><h4>Article Text</h4></label>
+              <textarea class="form-control" id="articleTextArea" rows="10"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h4>Select Tags</h4>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="metaChoice" id="pyCheck" value="pyOption">
+              <label class="form-check-label" for="pyCheck">Python</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="metaChoice" id="cplusCheck" value="cplusOption">
+              <label class="form-check-label" for="cplusCheck">C++</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="metaChoice" id="javaCheck" value="javaOption">
+              <label class="form-check-label" for="javaCheck">Java</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="metaChoice" id="scalaCheck" value="scalaOption">
+              <label class="form-check-label" for="scalaCheck">Scala</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="metaChoice" id="perlCheck" value="perlOption">
+              <label class="form-check-label" for="perlCheck">Perl</label>
+            </div>
+          </div>
+          <div class="col">
+            <h4>Visibility</h4>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="visChoice" id="publicCheck" value="publicOption">
+              <label class="form-check-label" for="publicCheck">Public</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="visChoice" id="privateCheck" value="privateOption">
+              <label class="form-check-label" for="privateCheck">Private</label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <h4>Login to Finish Submitting</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputUser" placeholder="Username">
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <input type="password" class="form-control" id="inputPass" placeholder="Password">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="rememberMe" value="rememberOption">
+              <label class="form-check-label" for="rememberMe">Remember me</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </body>
+  </html>

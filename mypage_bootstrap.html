@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>About Me.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+      <body>
+        <h1>Perkins, Wyatt - <small>Software Development Methods and Tools</small></h1>
+        <div class="card bg-light text-dark">
+          <div class="card-body">I have been on two sea kayaking trips, one for 9 days and the other for 14 days. I had to get shoulder repair surgery after being
+            injured while playing lacrosse. I have never seen the movie Titanic. I'm studying computer science because technology is very interesting
+            to me and, ever since my first coding class freshman year, I have loved studying it.</div>
+        </div>
+        <h2>My Personal Profile</h2>
+        <a href="https://github.com/wperkins22" class="btn btn-light" role="button">Wyatt's Github</a>
+        <br>
+        <img src="IMG_6111.JPG" class="rounded-circle" height="500px" width="475px" alt="Photo of Wyatt">
+        <h3>My Favorite Projects</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name of the Project</th><th>Technologies Used</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Remake of Oregon Trail</td><td>C++</td>
+            </tr>
+            <tr>
+              <td>Cryptocurrenty trading simulator</td><td>C++, MatPlotLib</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <a class="btn btn-light" data-toggle="collapse" data-target="#countries">Countries Travelled</a>
+              <div id="countries" class="collapse">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>United States</td>
+                    </tr>
+                    <tr>
+                      <td>Mexico</td>
+                    </tr>
+                    <tr>
+                      <td>Canada</td>
+                    </tr>
+                    <tr>
+                      <td>United Kingdom</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col">
+              <a class="btn btn-light" data-toggle="collapse" data-target="#interests">My Interests</a>
+              <div id="interests" class="collapse">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Coding</td>
+                    </tr>
+                    <tr>
+                      <td>Skiing</td>
+                    </tr>
+                    <tr>
+                      <td>Rock Climbing</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container-fluid">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Click Me!</button>
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">That's all folks!</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <p>&nbsp;/ \<br>| | |<br>&nbsp;\ \<br>| | |<br>&nbsp;\ /</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
